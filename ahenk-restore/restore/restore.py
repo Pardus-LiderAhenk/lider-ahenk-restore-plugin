@@ -12,5 +12,7 @@ from api.rsync import BackupRsync
 
 def handle_task(task, context):
     task['type'] = 'r'
+    if task['restore_path'] :
+        task['destPath'] = task['restore_path']
     backup = BackupRsync(task, context)
     backup.backup()
