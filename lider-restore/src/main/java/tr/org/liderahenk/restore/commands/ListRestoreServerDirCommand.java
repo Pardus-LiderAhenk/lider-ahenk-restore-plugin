@@ -26,7 +26,7 @@ public class ListRestoreServerDirCommand implements ICommand {
 	private PluginInfoImpl pluginInfo;
 	private IPluginDbService dbService;
 
-	private static final String FIND_CHILD_DIRECTORIES = "find {0} -maxdepth 1 -print0 | tr '\\0' ','";
+	private static final String FIND_CHILD_DIRECTORIES_FOR_RESTORE = "find {0} -maxdepth 1 -print0 | tr '\\0' ','";
 
 	@Override
 	public ICommandResult execute(ICommandContext context) throws Exception {
@@ -39,7 +39,7 @@ public class ListRestoreServerDirCommand implements ICommand {
 			SSHManager ssh = new SSHManager(serverConfig.getDestHost(), serverConfig.getUsername(),
 					serverConfig.getPassword(), serverConfig.getDestPort(), null, null);
 			ssh.connect();
-			String result = ssh.execCommand(FIND_CHILD_DIRECTORIES,
+			String result = ssh.execCommand("find {0} -maxdepth 1 -print0 | tr '\\0' ','",
 					new Object[] { parameterMap.get("TARGET_PATH").toString() });
 			if (result != null) {
 				resultMap.put("CHILD_DIRS", result);
