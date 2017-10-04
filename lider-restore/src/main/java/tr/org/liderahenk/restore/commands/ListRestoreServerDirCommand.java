@@ -9,7 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import tr.org.liderahenk.backup.entities.BackupServerConfig;
-import tr.org.liderahenk.backup.utils.SSHManager;
+import tr.org.liderahenk.restore.utils.SSHManager;
 import tr.org.liderahenk.lider.core.api.persistence.IPluginDbService;
 import tr.org.liderahenk.lider.core.api.plugin.ICommand;
 import tr.org.liderahenk.lider.core.api.service.ICommandContext;
