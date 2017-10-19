@@ -390,7 +390,7 @@ public class RestoreTaskDialog extends DefaultTaskDialog {
 	@Override
 	public String getMailContent() {
 		
-		return "cn={ahenk} ahenginde {path} yolu yedek geri alma işlemi tamamlanmıştır.";
+		return "cn={ahenk} ahenginde {path} yolu yedek geri alma işlemi tamamlanmıştır.Transfer edilen dosya boyutu :{transferredFileSize}";
 	}
 	
 	@Override
