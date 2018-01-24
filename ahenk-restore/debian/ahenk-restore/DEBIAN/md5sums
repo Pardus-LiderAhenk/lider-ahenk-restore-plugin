@@ -1,0 +1,10 @@
+0e00e8a482c032fcb281d1110fe30cbb  usr/share/ahenk/plugins/restore/api/rsync.py
+3c3260b124c9bfa19eb22af1b9604274  usr/share/ahenk/plugins/restore/init.py
+5600c082c5fd4005cbfe34befd4412e3  usr/share/ahenk/plugins/restore/login.py
+676a180eaf84babe8131274f7680e3c8  usr/share/ahenk/plugins/restore/logout.py
+45619ab4a5e4807a981030488d80f6fc  usr/share/ahenk/plugins/restore/main.py
+2613e05c313fec8cef382cd53513fd9a  usr/share/ahenk/plugins/restore/policy.py
+d05bb92e8721653defb1d32a802c8a56  usr/share/ahenk/plugins/restore/restore.py
+53ba59fa72fc042c8a599541f1f3f054  usr/share/ahenk/plugins/restore/safe.py
+ce14a9c1fe208d356f047810c4bcb6e5  usr/share/ahenk/plugins/restore/shutdown.py
+d4fa91c2a0012511416ddac390b0a383  usr/share/doc/ahenk-restore/changelog.gz

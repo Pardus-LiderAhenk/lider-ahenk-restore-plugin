@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>tr.org.liderahenk</groupId>
 		<artifactId>restore</artifactId>
-		<version>1.0.0</version>
+		<version>1.1</version>
 	</parent>
 
 	<artifactId>lider-restore</artifactId>
@@ -103,7 +103,7 @@
 					<instructions>
 						<_removeheaders>Import-Service,Export-Service</_removeheaders>
 						<Bundle-SymbolicName>lider-restore</Bundle-SymbolicName>
-						<Bundle-Version>1.0.0</Bundle-Version>
+						<Bundle-Version>1.1</Bundle-Version>
 						<!-- There is a bug that imports packages reside in the bundle. Here we prevent this: -->
 						<Import-Package>!tr.org.liderahenk.restore.*, *</Import-Package>
 						<!-- If the plugin also have a *-db bundle, then use this line instead: -->

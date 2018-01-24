@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='1'>
-  <unit id='lider-console-restore' version='1.0.0'>
-    <update id='lider-console-restore' range='[0.0.0,1.0.0)' severity='0'/>
+  <unit id='lider-console-restore' version='1.0.0.201801191335'>
+    <update id='lider-console-restore' range='[0.0.0,1.0.0.201801191335)' severity='0'/>
     <properties size='5'>
       <property name='org.eclipse.equinox.p2.name' value='Lider Ahenk Sample Plugin'/>
       <property name='org.eclipse.equinox.p2.provider' value='Agem Bilişim'/>
       <property name='maven-groupId' value='tr.org.liderahenk'/>
       <property name='maven-artifactId' value='lider-console-restore'/>
-      <property name='maven-version' value='1.0.0'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
     </properties>
     <provides size='3'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='lider-console-restore' version='1.0.0'/>
-      <provided namespace='osgi.bundle' name='lider-console-restore' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='lider-console-restore' version='1.0.0.201801191335'/>
+      <provided namespace='osgi.bundle' name='lider-console-restore' version='1.0.0.201801191335'/>
       <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
     </provides>
     <requires size='24'>
@@ -41,13 +41,13 @@
       <required namespace='osgi.bundle' name='org.codehaus.jackson.mapper' range='0.0.0'/>
     </requires>
     <artifacts size='1'>
-      <artifact classifier='osgi.bundle' id='lider-console-restore' version='1.0.0'/>
+      <artifact classifier='osgi.bundle' id='lider-console-restore' version='1.0.0.201801191335'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='1'>
         <instruction key='manifest'>
-          Bundle-SymbolicName: lider-console-restore;singleton:=true&#xA;Bundle-Version: 1.0.0&#xA;
+          Bundle-SymbolicName: lider-console-restore;singleton:=true&#xA;Bundle-Version: 1.0.0.201801191335&#xA;
         </instruction>
       </instructions>
     </touchpointData>

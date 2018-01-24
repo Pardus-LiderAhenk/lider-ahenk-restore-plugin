@@ -3,7 +3,7 @@ package tr.org.liderahenk.restore.constants;
 public class RestoreConstants {
 
 	public static final String PLUGIN_NAME = "restore";
-	public static final String PLUGIN_VERSION = "1.0.0";
+	public static final String PLUGIN_VERSION = "1.1";
 
 	public static final String DEFAULT_PORT = "22";
 	public static final int DEFAULT_PORT_INT = 22;

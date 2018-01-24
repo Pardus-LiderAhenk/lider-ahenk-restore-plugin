@@ -2,7 +2,7 @@
 <feature
       id="lider-console-restore-feature"
       label="lider-console-restore-feature"
-      version="1.0.0">
+      version="1.0.0.201801191335">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]
@@ -19,8 +19,8 @@
    <plugin
          id="lider-console-restore"
          download-size="31"
-         install-size="56"
-         version="1.0.0"
+         install-size="57"
+         version="1.0.0.201801191335"
          unpack="false"/>
 
 </feature>
